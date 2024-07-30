@@ -460,7 +460,7 @@ h3{
     gap: 10px;
     width: 100%;
 }
-.input-field{
+.name, .email{
     width: 50%;
     height: 55px;
     background: transparent;

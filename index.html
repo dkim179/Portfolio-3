@@ -3,21 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-    <!-- --------- CSS ---------- -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-
-    <title>Portfolio | Ludiflex</title>
+    <title>Portfolio</title>
 </head>
 <body>
    <div class="container">
-    <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
             <p class="nav-name">Daniel</p>
@@ -44,17 +36,14 @@
             </ul>
         </div>
         <div class="nav-button">
-            <button class="btn">Download CV</i></button>
+            <button class="btn" onclick="window.open('./assets/Resume-Min Suk Kim.pdf')">Download CV</i></button>
         </div>
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
       </nav>
 
-
-    <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
        <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
@@ -70,13 +59,13 @@
             </div>
             <div class="featured-text-btn">
                 <button class="btn blue-btn">Hire Me</button>
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                <button class="btn" onclick="window.open('./assets/Resume-Min Suk Kim.pdf')">Download CV</i></button>
             </div>
             <div class="social_icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-instagram" onclick="location.href='https://linkedin.com/in/daniel-kim-7566271b5/'"></i></div>
                 <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
                 <div class="icon"><i class="uil uil-dribbble"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                <div class="icon"><i class="uil uil-github-alt" onclick="location.href='https://github.com/dkim179?tab=repositories'"></i></div>
             </div>
           </div>
           <div class="featured-image">
@@ -92,7 +81,6 @@
           </div>
 
        </section>
-       <!-- -------------- ABOUT BOX ---------------- -->
        <section class="section" id="about">
           <div class="top-header">
             <h1>About Me</h1>
@@ -107,7 +95,7 @@
                        WordPress.
                     </p>
                     <div class="about-btn">
-                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                        <button class="btn" onclick="window.open('./assets/Resume-Min Suk Kim.pdf')">Download CV</i></button>
                     </div>
                 </div>
             </div>
@@ -121,7 +109,6 @@
                         <span>CSS</span>
                         <span>Bootstrap</span>
                         <span>JavaScript</span>
-                        <span>Vue</span>
                         <span>React</span>
                         <span>Angular</span>
                     </div>
@@ -131,9 +118,7 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="skills-list">
-                        <span>PHP</span>
-                        <span>JAVA</span>
-                        <span>Python</span>
+                        <span>C</span>
                         <span>C++</span>
                     </div>
                 </div>
@@ -143,7 +128,6 @@
                     </div>
                     <div class="skills-list">
                         <span>MySQL</span>
-                        <span>PostgreSQL</span>
                         <span>MongoDB</span>
                     </div>
                 </div>
@@ -161,22 +145,20 @@
             <div class="project-box">
                 <i class="uil uil-briefcase-alt"></i>
                 <h3>Completed</h3>
-                <label>15+ Finished Projects</label>
+                <label>5+ Finished Projects completed throughout learning period</label>
             </div>
             <div class="project-box">
                 <i class="uil uil-users-alt"></i>
                 <h3>Clients</h3>
-                <label>25+ Happy Clients</label>
+                <label>0 Clients Yet!</label>
             </div>
             <div class="project-box">
                 <i class="uil uil-award"></i>
                 <h3>Experience</h3>
-                <label>7+ Years in the field</label>
+                <label>0 Years in the field</label>
             </div>
           </div>
        </section>
-
-       <!-- -------------- CONTACT BOX ---------------- -->
 
        <section class="section" id="contact">
           <div class="top-header">
@@ -187,15 +169,15 @@
              <div class="col">
                 <div class="contact-info">
                     <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: ekki04122006@gmail.com</p>
+                    <p><i class="uil uil-envelope"></i>Email:<a href="mailto:ekki04122006@gmail.com">ekki04122006@gmail.com</a></p>
                     <p><i class="uil uil-phone"></i> Tel: +1 905-324-4272</p>
                 </div>
              </div>
              <div class="col">
                 <div class="form-control">
                     <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
+                        <input type="text" class="name" placeholder="Name">
+                        <input type="text" class="email" placeholder="Email">
                     </div>
                     <div class="text-area">
                         <textarea placeholder="Message"></textarea>
@@ -207,11 +189,8 @@
              </div>
           </div>
        </section>
-
     </main>
 
-
-    <!-- --------------- FOOTER --------------- -->
     <footer>
         <div class="top-footer">
             <p>Daniel Kim</p>
@@ -233,10 +212,10 @@
             </ul>
         </div>
         <div class="footer-social-icons">
-            <div class="icon"><i class="uil uil-instagram"></i></div>
-            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-            <div class="icon"><i class="uil uil-dribbble"></i></div>
-            <div class="icon"><i class="uil uil-github-alt"></i></div>
+            <div class="icon"><i class="uil uil-instagram" onclick="location.href='https://linkedin.com/in/daniel-kim-7566271b5/'"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt" onclick="location.href='https://github.com/dkim179?tab=repositories'"></i></div>
         </div>
         <div class="bottom-footer">
             <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Daniel Kim</a> - All rights reserved</p>
@@ -245,16 +224,8 @@
 
     </div>
 
-
-
-
-    <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-       <!-- ----- SCROLL REVEAL JS Link----- -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- ----- MAIN JS ----- -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
